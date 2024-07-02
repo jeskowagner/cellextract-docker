@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+  - pytorch
+  - fastai
+  - nvidia
+  - bioconda
+dependencies:
+  - numba
+  - pytorch
+  - cellpose=2
+  - opencv-python-headless
+  - matplotlib
+  - numpy
+  - pandas
+  - anndata
+  - scikit-image=0.19.3
+  - opencv
+  - git
+  - pip
+  - pip:
+      - git+https://github.com/pydata/sparse.git
+variables:
+  MPLBACKEND: agg
