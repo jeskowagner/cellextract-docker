@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+  - bioconda
+  - fastai
+dependencies:
+  - scikit-image=0.19.3
+  - matplotlib=3.8
+  - numpy=1.23.5
+  - pandas=2.2
+  - cellprofiler=4.2
+  - cellprofiler-core=4.2
+  - centrosome=1.2
+  - anndata=0.10
+  - git
+  - numba=0.59
+  - opencv-python-headless=4.10
+  - pip
+  - pip:
+    - mahotas
+    - git+https://github.com/pydata/sparse.git

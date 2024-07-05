@@ -5,19 +5,17 @@ channels:
   - nvidia
   - bioconda
 dependencies:
-  - numba
-  - pytorch
+  - numba=0.59
+  - pytorch=2.3
   - cellpose=2
-  - opencv-python-headless
-  - matplotlib
-  - numpy
-  - pandas
-  - anndata
+  - opencv-python-headless=4.10
+  - opencv=4.10
+  - matplotlib=3.8
+  - numpy=1.23
+  - pandas=2.2
+  - anndata=0.10
   - scikit-image=0.19.3
-  - opencv
   - git
   - pip
   - pip:
       - git+https://github.com/pydata/sparse.git
-variables:
-  MPLBACKEND: agg
